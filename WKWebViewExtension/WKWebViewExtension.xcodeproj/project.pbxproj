@@ -17,6 +17,7 @@
 		5EAAADF2205CBB5200D8EE75 /* WKWebView + SafeScrollTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAADE2205CBB5100D8EE75 /* WKWebView + SafeScrollTo.m */; };
 		5EAAADF5205CBB5200D8EE75 /* WKWebView + SafeClearCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAADEA205CBB5200D8EE75 /* WKWebView + SafeClearCache.m */; };
 		5EAAADF8205CBB5200D8EE75 /* WKWebView + SupportProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAAADF0205CBB5200D8EE75 /* WKWebView + SupportProtocol.m */; };
+		5EC64FE3206BA5CD0079B197 /* WKWebView + SafeCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC64FE2206BA5CD0079B197 /* WKWebView + SafeCookies.m */; };
 		B944DC35206A353000BD0F06 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B944DC34206A353000BD0F06 /* Images.xcassets */; };
 		B94ECF5F206A55CA0023245F /* WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = B94ECF5E206A55CA0023245F /* WebView.m */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,8 @@
 		5EAAADEB205CBB5200D8EE75 /* WKWebView + SafeScrollTo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WKWebView + SafeScrollTo.h"; sourceTree = "<group>"; };
 		5EAAADED205CBB5200D8EE75 /* WKWebViewExtensionsDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewExtensionsDef.h; sourceTree = "<group>"; };
 		5EAAADF0205CBB5200D8EE75 /* WKWebView + SupportProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WKWebView + SupportProtocol.m"; sourceTree = "<group>"; };
+		5EC64FE1206BA5CD0079B197 /* WKWebView + SafeCookies.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WKWebView + SafeCookies.h"; sourceTree = "<group>"; };
+		5EC64FE2206BA5CD0079B197 /* WKWebView + SafeCookies.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WKWebView + SafeCookies.m"; sourceTree = "<group>"; };
 		B944DC34206A353000BD0F06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B94ECF5D206A55CA0023245F /* WebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebView.h; sourceTree = "<group>"; };
 		B94ECF5E206A55CA0023245F /* WebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebView.m; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				5E7A05DB205EC434006CA1E9 /* WKWebView + ExternalNavigationDelegates.m */,
 				5E7A05D4205EB9F8006CA1E9 /* WKWebView + SyncConfigUA.h */,
 				5E7A05D5205EB9F8006CA1E9 /* WKWebView + SyncConfigUA.m */,
+				5EC64FE1206BA5CD0079B197 /* WKWebView + SafeCookies.h */,
+				5EC64FE2206BA5CD0079B197 /* WKWebView + SafeCookies.m */,
 				5EAAADED205CBB5200D8EE75 /* WKWebViewExtensionsDef.h */,
 			);
 			path = Source;
@@ -252,6 +257,7 @@
 				5E7A05D0205EB999006CA1E9 /* WKWebView + DeleteMenuItems.m in Sources */,
 				B94ECF5F206A55CA0023245F /* WebView.m in Sources */,
 				5E7A05D6205EB9F8006CA1E9 /* WKWebView + SyncConfigUA.m in Sources */,
+				5EC64FE3206BA5CD0079B197 /* WKWebView + SafeCookies.m in Sources */,
 				5EAAADF5205CBB5200D8EE75 /* WKWebView + SafeClearCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

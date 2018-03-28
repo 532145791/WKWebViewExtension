@@ -13,3 +13,5 @@
 #import "WKWebView + SafeEvaluateJS.h"
 #import "WKWebView + ExternalNavigationDelegates.h"
 #import "WKWebView + SyncConfigUA.h"
+#import "WKWebView + SafeCookies.h"
+
