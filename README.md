@@ -3,7 +3,7 @@
 An extension for WKWebView . 
 
 Providing `WKWebView MenuItems delete` 、 `WKWebView support protocol` 、 `WKWebView clear cache or iOS8` and so on.
-
+> 与[ReusableNestingScrollview](https://github.com/dequan1331/ReusableNestingScrollview)一起，组件服务于[HybridPageKit](https://github.com/dequan1331/HybridPageKit)，一个资讯类内容底层页完善的通用组件。
 
 1.	DeleteMenuItems  `iOS11 this issue has been fixed `
 
