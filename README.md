@@ -1,68 +1,68 @@
 # WKWebViewExtension
 
-[英文](./README.md) | [扩展阅读](https://dequan1331.github.io/) 
+[Extended Reading](https://dequan1331.github.io/) | [中文](./README_CN.md) | [扩展阅读](https://dequan1331.github.io/)
+
+An extension for WKWebView . 
+
+Providing `WKWebView MenuItems delete` 、 `WKWebView support protocol` 、 `WKWebView clear cache or iOS8` and so on.
+
+> Together with WKWebViewExtension, components serve HybridPageKit, which is a general sulotion of news App content page.
 
 
-一系列WKWebView的扩展 .
-
-提供自定义长按MenuItems Bug修复、支持NSURLProtocol、清理iOS 8浏览器缓存等功能。
- 
-> 与[ReusableNestingScrollview](https://github.com/dequan1331/ReusableNestingScrollview)一起，组件服务于[HybridPageKit](https://github.com/dequan1331/HybridPageKit)，一个资讯类内容底层页完善的通用组件。
-
-## 配置
-
+## Requirements
 iOS 8.0 or later
 
 		
-##	安装
+##	Installation
 
 1.	CocoaPods
 	
 		platform :ios, '8.0'
 		pod 'WKWebViewExtension'
 
-2.	下载repo并引入头文件
+2.	Cloning the repository
 
 	```objective-c
 	#import <WKWebViewExtensionsDef.h>
 	```
 
-## 特点
+## Features
 
-1.	自定义长按MenuItems Bug修复  `iOS11系统已修复`
+1.	DeleteMenuItems  `iOS11 this issue has been fixed `
 
 	
-		自定义长按MenuItems Bug修复，iOS11前部分Item无法删除
+		WKWebView Support Delete System MenuItems
+   		Delete System Items Without cut/copy/paste/delete
    		
 
-2.	支持NSURLProtocol
+2.	SupportProtocol
 
-		支持NSURLProtocol
+		WKWebView Support Protocol Like UIWebView
 
-3.	清理浏览器缓存
+3.	SafeClearCache
 
-		支持iOS 8 删除全部浏览器缓存
+		WKWebView Support iOS8 Clear All Cache
 		
-4.	安全滚动
+4.	SafeScrollTo
 
-		通过Runloop检测WebView的ContentSize是否大于滚动距离，自动滚动或等待重试
+		WKWebView Safe ScrollTo Specific Offset Without Blank Screen by Runloop
 		
-5.	安全执行JS
+5.	SafeEvaluateJS
 
-		防止WebView异步执行JS回调时，WebView释放导致Crash，容错JS执行回调null对象
+		Safe Evaluate JS And Retainify Webview For CallBack, and Make Sure CallBack IS NOT null
 		
-6.	扩展Navigation Delegate
+6.	ExternalNavigationDelegates
 
-		通过代理分发，扩展Navigation Delegate，支持业务层级外部Delegate以及内部服务于JS Bridge的Delegate
+		WKWebView Support Internal And Extenal Delegates
 
-7.	同步配置WebView UA
+7.	SyncConfigUA
 
-		扩展通过UIWebView同步配置UA，防止异步执行产生时序问题。
+		Sync Config UA Without WKWebView
 		
-## 证书
+## Licenses
 
 All source code is licensed under the [MIT License](https://github.com/dequan1331/WKWebViewExtension/blob/master/LICENSE).
 
-## 联系方式
+## Contact
 
 <img src="./contact.png">
