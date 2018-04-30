@@ -1,12 +1,12 @@
 # WKWebViewExtension
 
-[Extended Reading](https://dequan1331.github.io/) | [中文](./README_CN.md) | [扩展阅读](https://dequan1331.github.io/)
+[Extended Reading](https://dequan1331.github.io/index-en.html) | [中文](./README_CN.md) | [扩展阅读](https://dequan1331.github.io/)
 
 An extension for WKWebView . 
 
 Providing `WKWebView MenuItems delete` 、 `WKWebView support protocol` 、 `WKWebView clear cache or iOS8` and so on.
 
-> Together with WKWebViewExtension, components serve HybridPageKit, which is a general sulotion of news App content page.
+> Together with [ReusableNestingScrollview](https://github.com/dequan1331/ReusableNestingScrollview), sub repo of [HybridPageKit](https://github.com/dequan1331/HybridPageKit), which is a general sulotion of news App content page.
 
 
 ## Requirements

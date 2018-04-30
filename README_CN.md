@@ -1,6 +1,6 @@
 # WKWebViewExtension
 
-[英文](./README.md) | [扩展阅读](https://dequan1331.github.io/) 
+[英文](./README.md) | [扩展阅读](https://dequan1331.github.io/) | [Extended Reading](https://dequan1331.github.io/index-en.html)
 
 
 一系列WKWebView的扩展 .
