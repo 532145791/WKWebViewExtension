@@ -19,15 +19,15 @@
     }
     
     if(type == kConfigUATypeReplace){
-        NSDictionary *dictionnary = [[NSDictionary alloc] initWithObjectsAndKeys:customString, @"UserAgent", nil];
-        [[NSUserDefaults standardUserDefaults] registerDefaults:dictionnary];
+        NSDictionary *dictionary = [[NSDictionary alloc] initWithObjectsAndKeys:customString, @"UserAgent", nil];
+        [[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
     }else if (type == kConfigUATypeAppend){
         UIWebView *webView = [[UIWebView alloc] init];
         NSString *originalUserAgent = [webView stringByEvaluatingJavaScriptFromString:@"navigator.userAgent"];
         NSString *appUserAgent =
         [NSString stringWithFormat:@"%@-%@", originalUserAgent, customString];
-        NSDictionary *dictionnary = [[NSDictionary alloc] initWithObjectsAndKeys:appUserAgent, @"UserAgent", nil];
-        [[NSUserDefaults standardUserDefaults] registerDefaults:dictionnary];
+        NSDictionary *dictionary = [[NSDictionary alloc] initWithObjectsAndKeys:appUserAgent, @"UserAgent", nil];
+        [[NSUserDefaults standardUserDefaults] registerDefaults:dictionary];
     }else{
         NSLog(@"WKWebView (SyncConfigUA) config with invalid type :%@", @(type));
     }
